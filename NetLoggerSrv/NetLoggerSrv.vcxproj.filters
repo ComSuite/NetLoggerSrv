@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="HexCtrl">
+      <UniqueIdentifier>{aac73529-f036-4146-a5fd-a2ceab964053}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HexCtrl\Header Files">
+      <UniqueIdentifier>{59f6803d-d916-4ddf-b4fa-57e97a38625e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HexCtrl\Sources">
+      <UniqueIdentifier>{0ec69ab9-a904-44da-8a2e-76ca3095d09a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HexCtrl\Resources">
+      <UniqueIdentifier>{2d44ccee-0bc7-48b4-ab14-8de224535840}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls">
+      <UniqueIdentifier>{93187db5-d674-46cd-b964-e69bba5c3e67}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NetLoggerSrv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NetLoggerSrvDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LogSrvSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CNetUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CDialogDetails.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HexCtrl\src\CHexCtrl.h">
+      <Filter>HexCtrl\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HexCtrl\src\Dialogs\CHexDlgAbout.h">
+      <Filter>HexCtrl\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HexCtrl\src\Dialogs\CHexDlgFillWith.h">
+      <Filter>HexCtrl\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HexCtrl\src\Dialogs\CHexDlgOperations.h">
+      <Filter>HexCtrl\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HexCtrl\src\Dialogs\CHexDlgSearch.h">
+      <Filter>HexCtrl\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HexCtrl\src\CScrollEx.h">
+      <Filter>HexCtrl\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HexCtrl\src\Helper.h">
+      <Filter>HexCtrl\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HexCtrl\HexCtrl.h">
+      <Filter>HexCtrl\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HexCtrl\src\CHexBookmarks.h">
+      <Filter>HexCtrl\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HexCtrl\res\HexCtrlRes.h">
+      <Filter>HexCtrl\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveFileDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetLoggerClient\base64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetLoggerClient\cJSON.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NetLoggerSrv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NetLoggerSrvDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LogSrvSocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDialogDetails.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HexCtrl\src\Helper.cpp">
+      <Filter>HexCtrl\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="HexCtrl\src\CScrollEx.cpp">
+      <Filter>HexCtrl\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="HexCtrl\src\Dialogs\CHexDlgSearch.cpp">
+      <Filter>HexCtrl\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="HexCtrl\src\Dialogs\CHexDlgOperations.cpp">
+      <Filter>HexCtrl\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="HexCtrl\src\Dialogs\CHexDlgFillWith.cpp">
+      <Filter>HexCtrl\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="HexCtrl\src\Dialogs\CHexDlgAbout.cpp">
+      <Filter>HexCtrl\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="HexCtrl\src\CHexCtrl.cpp">
+      <Filter>HexCtrl\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="HexCtrl\src\CHexBookmarks.cpp">
+      <Filter>HexCtrl\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveFileDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NetLoggerClient\base64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NetLoggerClient\cJSON.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="NetLoggerSrv.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="HexCtrl\res\HexCtrl.rc">
+      <Filter>HexCtrl\Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\NetLoggerSrv.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\NetLoggerSrv.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Majdi-Khawaja-Kung-Fu-Panda-Mantis.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HexCtrl\res\HexCtrlIcon.bmp">
+      <Filter>HexCtrl\Resources</Filter>
+    </Image>
+    <Image Include="HexCtrl\res\MenuCopy.bmp">
+      <Filter>HexCtrl\Resources</Filter>
+    </Image>
+    <Image Include="HexCtrl\res\MenuFillZeros.bmp">
+      <Filter>HexCtrl\Resources</Filter>
+    </Image>
+    <Image Include="HexCtrl\res\MenuPaste.bmp">
+      <Filter>HexCtrl\Resources</Filter>
+    </Image>
+    <Image Include="HexCtrl\res\ScrollExH.bmp">
+      <Filter>HexCtrl\Resources</Filter>
+    </Image>
+    <Image Include="HexCtrl\res\ScrollExV.bmp">
+      <Filter>HexCtrl\Resources</Filter>
+    </Image>
+    <Image Include="res\AppIcon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
